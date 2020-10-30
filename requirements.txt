@@ -1,4 +1,6 @@
 flask
-flask_cors
+flask-cors
 networkx
-bs4
+requests
+beautifulsoup4
+lxml
