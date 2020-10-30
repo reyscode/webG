@@ -1,0 +1,42 @@
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/textstyle.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" >
+</head>
+
+<script src="{{url_for('static', filename='jquery.js') }}"></script>
+<script src="{{url_for('static', filename='utils.js') }}"></script>
+<script src="{{url_for('static', filename='graph.js') }}"></script>
+<script src="{{url_for('static', filename='ElGrapho.min.js') }}"></script>
+
+<div id="container">
+    <!-- Text Field
+    
+    -->
+    <form method="GET" onsubmit="button_callback()" id="myform">
+        <input type="text" onkeyup="button_callback()" name="name" class="question" id="url_p" required autocomplete="off" />
+        
+        <label><span>Enter Web Page URL here</span></label>
+        
+    </form>
+
+    <!--- Radio Buttons --->
+    
+    <div id="spcial-radio">
+        <div class="input-radio"><input type="radio" id="rd1" name="grp1" onclick="rd1_cf();" value="" checked>
+            <label class="option" for="rd1">Force Directed Graph</label></div>
+        <div class="input-radio"><input type="radio" id="rd2" name="grp1" onclick="rd2_cf();" value="">
+            <label class="option" for="rd2">Random Tree</label></div>
+        <div class="input-radio"><input type="radio" name="grp1" id="rd3" onclick="rd3_cf();" value="">
+            <label class="option" for="rd3">Radial Tree</label></div>
+        <div class="input-radio"><input type="radio" name="grp1" id="rd4" onclick="rd4_cf();" value="">
+            <label class="option" for="rd4">Cluster</label></div>
+    </div>
+
+
+  </div>
+
+  <div id="container-1">
+
+  </div>
