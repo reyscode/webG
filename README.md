@@ -68,7 +68,7 @@ This tool would be useful to anyone working on web page analysis, scraping, Mach
 | :--------------------: | :----------------------: |
 | ![](images/amazon.png) | ![](images/flipkart.png) |
 
-## tools used
+## Tools Used
 
 1. Flask: to build a web application
 2. Elgrapho: Interative visualization
