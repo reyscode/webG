@@ -1,6 +1,6 @@
 
 
-# webG: Graph Visualization of web
+# webG: Graph Visualization of Web
 
 Web pages are graphs and they should be treated as graphs. 
 
