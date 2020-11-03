@@ -12,6 +12,7 @@ HEADERS = {
 
 
 def _traverse_html(_d, _graph, _counter, _parent=None, _node_dict=None):
+  """Traverse the DOM elements in a HTML soup and create a networkx graph"""
   for i in _d.contents:
      if i.name is not None:
        try:
@@ -27,12 +28,16 @@ def _traverse_html(_d, _graph, _counter, _parent=None, _node_dict=None):
          pass
 
 def parse_tag(tag):
-  """Parse node id into a HTML tag"""
+  """Parse node id into a HTML tag
+  
+  eg: div_134 -> div
+  """
   return tag[:tag.find('_')] if '_' in tag else tag 
 
 
 
 def w2json(url='https://www.flipkart.com/kinder-joy-boys-fudges/p/itmeuuwuqd7zgpra'):
+  """fetch DOM elements from a URL and return a networkx graph as JSON"""
   # create an empty graph
   wg = nx.Graph()
   # get response from url
@@ -50,6 +55,7 @@ def w2json(url='https://www.flipkart.com/kinder-joy-boys-fudges/p/itmeuuwuqd7zgp
 
 
 def g2json(g, node_dict):
+  """Convert a networkx graph to JSON format"""
   # make unique tags
   tags = [ parse_tag(key) for key in list(node_dict.keys()) ]
   tag_id = { tag: i for i, tag in enumerate(sorted(set(tags))) }
