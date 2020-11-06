@@ -13,7 +13,7 @@ cors = CORS(app, resources={r"/json": {"origins": "http://localhost:5000"}})
 
 
 @app.route('/')
-def hello():
+def render_index():
     return render_template('index.html')
 
 @app.route('/json', methods=['GET'])

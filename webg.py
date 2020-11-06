@@ -36,7 +36,7 @@ def parse_tag(tag):
 
 
 
-def w2json(url='https://www.flipkart.com/kinder-joy-boys-fudges/p/itmeuuwuqd7zgpra'):
+def w2json(url):
   """fetch DOM elements from a URL and return a networkx graph as JSON"""
   # create an empty graph
   wg = nx.Graph()

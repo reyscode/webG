@@ -1,45 +1,46 @@
 # WebG: Graph Visualization of Web Pages
 
-- *Motivation
-- What is a graph?
-- How to create a (networkx) graph in python?
-  - How to visualize it?
-  - What is the problem with networkx visualization?
-  - Why do you need webG?
-- Why web pages as graphs?
-- How can you represent a web page as a graph?
-- What information is losing when representing a web page as a graph?
-- How to scrape a web page?
-- How to convert a web page into networkx graph?
-- How to convert a networkx graph to JSON format?
-- Why JSON format?
-- What is Flask?
-  - Why does webG need flask?
-  - Why not just html + javascript?
-  - What is CORS?
-- How do you visualize a graph in javascript?
-  - Why did you choose El Grapho?
-  - Give a simple example of graph rendering in El Grapho?
-  - Why did you choose codepen?
-  - Why did you switch to VSCode?
-  - How do you render a graph from a JSON string?
-- Basics of Flask
-  - How to run a hello world app?
-  - How to render html page?
-  - How to add css?
-  - How to add javascript?
-- Integrating UI with python backend.
-  - Give me a quick run through of the logic of webG
-- Explain all the features of webG.
-- How to use webG? Case studies/examples.
-  - Number of products advertised in a page of amazon compared to flipkart.
-  - github vs gitlab
-  - E-commerce vs Wikipedia
-- How to contribute?
-  - Add and compare multiple web pages
-  - Render difference between graphs
-  - Render any graph data from JSON file.
-  - Share any new applications of webG
-  - Render directional graphs
-  - Download graph as png/svg
-  - Render images and hyperlinks in tooltip container
+- [ ] *Motivation
+- [x] What is a graph?
+- [x] How to create a (networkx) graph in python?
+  - [x] How to visualize it?
+  - [x] What is the problem with networkx visualization?
+  - [x] Why do you need webG?
+- [x] Why web pages as graphs?
+- [x] How can you represent a web page as a graph?
+- [x] What information is lost when representing a web page as a graph?
+- [x] How to scrape a web page?
+- [x] How to convert a web page into networkx graph?
+- [x] How to convert a networkx graph to JSON format?
+- [x] Why JSON format?
+- [x] What is Flask?
+  - [x] Why does webG need flask?
+  - [x] Why not just html + javascript?
+  - [x] What is CORS?
+- [ ] How do you visualize a graph in javascript?
+  - [x] Why did you choose El Grapho?
+  - [x] Give a simple example of graph rendering in El Grapho?
+  - [x] Why did you choose codepen?
+  - [x] Why did you switch to VSCode?
+  - [x] How do you render a graph from a JSON string?
+- [x] Basics of Flask
+  - [x] How to run a hello world app?
+  - [x] How to render html page?
+  - [x] How to add css?
+  - [x] How to add javascript?
+- [x] Integrating UI with python backend.
+  - [x] Give me a quick run through of the logic of webG
+- [x] Explain all the features of webG.
+- [x] How to use webG? Case studies/examples.
+  - [x] Number of products advertised in a page of amazon compared to flipkart.
+  - [ ] github vs gitlab
+  - [x] E-commerce vs Wikipedia
+- [x] How to contribute?
+  - [x] Add and compare multiple web pages
+  - [x] Render difference between graphs
+  - [x] Render any graph data from JSON file.
+  - [x] Share any new applications of webG
+  - [x] Render directional graphs
+  - [x] Download graph as png/svg
+  - [x] Render images and hyperlinks in tooltip container
+
