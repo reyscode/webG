@@ -2,11 +2,6 @@
 
 # webG: Graph Visualization of Web
 
-Web pages are graphs and they should be treated as graphs. 
-
-- [ ] Motivation
-  - [ ] Purpose
-
 ## What is a graph? 
 
 A graph is a diagrammatical illustration of a set of data. It is a non-linear data structure consisting of nodes and edges. The nodes are sometimes also referred to as vertices, and the edges are lines or arcs that connect any two nodes in the graph. A simple graph structure is given below:
@@ -42,7 +37,7 @@ NetworkX is a powerful tool for working with networks. But it didn't suit the ne
 
 - Static hence we cannot interact with it
 
-## Why does the world need webG?
+## What is webG?
 
 We do not have any tools for visualizing web page as a graph because it is relatively new idea. webG allows you to visualize the DOM tree of any web page as a graph. It currently supports 4 types of graph visualizations.
 
@@ -59,11 +54,11 @@ A quick walkthrough of webG's features.
 
 - Visualizes web pages as graphs
 
-<img src="/Users/tj/projects/webG/webG/images/f1.png" alt="f1"  />
+<img src="../images/f1.png" alt="f1"  />
 
 - Displays metadata from DOM elements
 
-![f2](/Users/tj/projects/webG/webG/images/f2.png)
+![f2](../images/f2.png)
 
 - Supports grouping of nodes
 
