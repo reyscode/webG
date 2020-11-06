@@ -13,6 +13,8 @@ webG allows you to visualize the DOM tree of any web page as a graph. We current
 
 Given a URL of a web page, webG's python backend scrapes the page, converts the DOM tree into a `networkx` graph and  passes it as a JSON string to the frontend for rendering, using El Grapho.
 
+See my blog for details: [webG: Visualization of DOM Tree](https://vrevathi.medium.com/webg-visualization-of-dom-tree-96f15bc81aa2)
+
 ## Features
 
 - Graph visualization of web page
