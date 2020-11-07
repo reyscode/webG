@@ -13,6 +13,8 @@ webG allows you to visualize the DOM tree of any web page as a graph. We current
 
 Given a URL of a web page, webG's python backend scrapes the page, converts the DOM tree into a `networkx` graph and  passes it as a JSON string to the frontend for rendering, using El Grapho.
 
+See my blog for details: [webG: Visualization of DOM Tree](https://vrevathi.medium.com/webg-visualization-of-dom-tree-96f15bc81aa2)
+
 ## Features
 
 - Graph visualization of web page
@@ -78,11 +80,15 @@ This tool would be useful to anyone working on web page analysis, scraping, Mach
 
 ## How to contribute
 
-You can contribute to this project in the following ways:
-
-1. Each kind of graph offers a unique perspective on the webpage. You could contribute by adding more kinds of visualization. 
-2. Currently the size of nodes are set globally. Adjusting the node size dynamically depending on a feature of the node (number of incoming edges) could be a nice feature to have.
-3. Since visualizing a website as graph is new idea, I am yet to figure out its applications beyond Data Analysis. Feel free to contact me if you have any interesting applications.
-
+There is so much more to do here. You can contribute to this project in the following ways:
+1. Each kind of graph offers an unique perspective on the webpage. You could contribute by adding more kinds of visualization.
+2. Currently, the size of the nodes is set globally. Adjusting the node size dynamically depending on a feature of the node (number of incoming edges) could be a nice feature to have.
+3. Add and compare multiple web pages
+4. Render difference between graphs. See graphtage
+5. Render any graph data from JSON file, not just web pages
+6. Render directional graphs
+7. Download graph as png and/or svg
+8. Render images and hyperlinks in tooltip container
+9. Since visualizing a website as a graph is a relatively new idea, I am yet to figure out its applications beyond Data Analysis. Feel free to contact me if you have any interesting ideas.
 
 
