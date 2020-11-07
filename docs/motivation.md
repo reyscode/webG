@@ -8,7 +8,7 @@ The internet is full of structured data. When we scrape the web we try to get ri
 
 A web page consists of text content distributed spatially in such a way that keeps the reader focussed. Another way to look at a page is by inspecting it with developer tools. It shows the elements in a web page as a tree. We call this the DOM (Document Object Model) tree. In this article, I'll showcase a tool I built for visualizing DOM tree of web pages - webG. I will do a step-by-step walkthrough of the project's development process.
 
-Now why would you want to visualize the DOM tree? Isn't that supposed to be hidden from the reader?
+Now why would you want to visualize the DOM tree? Isn't that supposed to be hidden from the user?
 
 >  A change in perspective is worth 80 IQ points.
 
